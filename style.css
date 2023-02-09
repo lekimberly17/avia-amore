@@ -71,3 +71,30 @@ main > * {
 /* media queries */
 
 /* YOUR CODE HERE */
+@media screen and (max-width: 768px){
+  body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  nav {
+    margin-top: 30px;
+    padding-left: 50px;
+  }
+
+  h1 {
+    padding-right: 40px;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+  .airplane-card {
+    flex-direction: row;
+    width: 100%;
+  }
+
+}
